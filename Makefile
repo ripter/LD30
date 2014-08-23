@@ -8,4 +8,7 @@ run: build
 node_packages/: package.json
 	npm install
 
-build: node_packages/ server.js
+bower_components/: bower.json
+	bower install
+
+build: node_packages/ bower_components/ server.js

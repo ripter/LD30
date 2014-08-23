@@ -1,0 +1,22 @@
+{
+  "name": "LD30",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ripter/LD30",
+  "authors": [
+    "ripter <ripter001@gmail.com>"
+  ],
+  "description": "Ludum Dare",
+  "main": "server.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
