@@ -67,7 +67,6 @@ app.post('/lib/weltmeister/api/save.php', function(req, res) {
   var filePath = req.body.path;
 	var data = req.body.data;
 
-  debugger;
 	// Resolve the path
 	filePath = path.resolve('.', filePath);
 
