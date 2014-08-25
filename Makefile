@@ -12,3 +12,6 @@ bower_components/: bower.json
 	bower install
 
 build: node_packages/ bower_components/ server.js
+
+bake: build
+	tools/bake.sh
